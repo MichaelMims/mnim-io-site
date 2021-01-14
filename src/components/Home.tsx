@@ -1,6 +1,7 @@
 import useInterval from '@use-it/interval';
 import react, { useEffect, useState } from 'react';
 import styled from 'styled-components'
+import profilePic from '../assets/img/profile-pic.png'
 
 const HomeWrapper = styled.div`
 flex-grow: 2;
@@ -30,7 +31,7 @@ border-radius: 50%;
 `
 
 const ProfilePic = styled.img.attrs({
-    src: require('../assets/img/profile-pic.png')
+    src: profilePic
 })`
 display: inline;
 margin: 0 auto;
