@@ -25,6 +25,10 @@ font-family: 'Cabin Sketch', cursive;
 const ProfilePicWrapper = styled.div`
 width: 20vw;
 height: 20vw;
+min-height: 10rem;
+min-width: 10rem;
+max-height: 20rem;
+max-width: 20rem;
 position: relative;
 overflow: hidden;
 border-radius: 50%;
